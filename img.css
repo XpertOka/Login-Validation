@@ -1,0 +1,149 @@
+#body{
+    background-image: url("images/1.jpg");
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+#sol{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(86, 86, 86, 0.3);
+    backdrop-filter: blur(10px);
+    position: absolute;
+
+}
+#sol input{
+    top: 50%;
+    left: 20%;
+    position: absolute;
+    border: 2px solid bisque;
+    outline: none;
+    width: 350px;
+    height: 50px;
+    border-radius: 25px;
+    background: none;
+    text-align: center;
+
+}
+h1{
+    text-align: center;
+    top: 40%;
+    left: 20%;
+    position: absolute;
+}
+h1:hover{
+    font-size: 75px;
+    top: 30%;
+    transition-duration: 2s;
+    color: rgb(36, 214, 214);
+    transform: rotate(360deg);
+}
+.btn{
+    width: 120px;
+    float: left;
+    margin-right: 30px;
+    border: 1px solid rgb(187, 168, 168);
+    margin-top: 2%;
+    border-radius: 17px;
+    
+}
+.login{
+    margin-left: 53%;
+}
+
+
+#btn3{
+    margin-left: 68%;
+    margin-top: 23px;
+   
+}
+#btn3:hover{
+    color: white;
+    
+}
+#qeyd{
+    position: absolute;
+    margin-left: 55%;
+    display: none;
+    
+}
+#sol #giris input{
+    width: 300px;
+    position: relative;
+    margin-top: 30px;
+    display:flex;
+    left: 25%;
+}
+#btn4{
+    margin-left: 38%;
+}
+#btn4:hover{
+    color: white;
+}
+#giris{
+    display: none;
+    position: relative;
+}
+#span{
+    width: 400px;
+    
+}
+span img{
+    width: 100px;
+    height: 80px;
+    opacity: 0.4;
+    
+    
+}
+#slider{
+margin-top: 80%;
+margin-left: 10%;
+position: relative;
+
+}
+#fontback{
+    color: black;
+    margin-top: 10px;
+    padding: 10px;
+}
+#fontnext {
+    color: black;
+    margin-top: 10px;
+    padding: 10px;
+}
+#span .fas{
+    position: relative;
+    margin-top: 10px;
+}
+.active{
+    border: 2px solid white;
+    width: 110px;
+    height: 90px;
+    
+}
+
+
+#search:hover{
+    width: 400px;
+    height: 65px;
+    transition: 2s;
+}
+.form-control{
+width: 350px;
+margin-top: 8px;
+}
+
+label{
+    display: block;
+    margin-top: 4px;
+}
+.div{
+    color: red;
+    font-weight: bold;
+    background-color: snow;
+   
+}
+.invalid-feedback{
+    font-size: 17px;
+}
